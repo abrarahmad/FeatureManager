@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\KOL8\\Documents\\Private Data\\Learning\\POC\\FeatureManager\\FeatureManagerConsoleApp\\FeatureManagerConsoleApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\KOL8\\Documents\\Private Data\\Learning\\POC\\FeatureManager\\FeatureManagerConsoleApp\\FeatureManagerConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\KOL8\\Documents\\Private Data\\Learning\\POC\\FeatureManager\\FeatureManagerConsoleApp\\FeatureManagerConsoleApp.csproj",
+        "projectName": "FeatureManagerConsoleApp",
+        "projectPath": "C:\\Users\\KOL8\\Documents\\Private Data\\Learning\\POC\\FeatureManager\\FeatureManagerConsoleApp\\FeatureManagerConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\KOL8\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KOL8\\Documents\\Private Data\\Learning\\POC\\FeatureManager\\FeatureManagerConsoleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\KOL8\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "http://eol_ci_build_master_ehad/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.FeatureManagement": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
